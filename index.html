@@ -3,25 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Art Wildrijk 2026: "Een Zomer Thuis" | Landschap Noord-Holland</title>
+<title>Art Wildrijk 2026 — Een Zomer Thuis</title>
 <meta name="description" content="Art Wildrijk 2026 — jubileumeditie 'Een Zomer Thuis'. Kunstroute in en rondom het boshuis in Wildrijk, 4 juli t/m 16 augustus 2026, elk weekend van 11.00 tot 17.00 uur.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   tailwind.config = {
     theme: {
       extend: {
-        colors: {
-          forest:   { DEFAULT: '#2F4B3C', dark: '#1F3229', light: '#40614F' },
-          cream:    '#F6F2E9',
-          bark:     '#4A3B2A',
-          clay:     { DEFAULT: '#C1723C', dark: '#A25C2C' },
-          moss:     '#7C8A5D',
-        },
+        colors: { ink: '#22261f', clay: '#a35a2f' },
         fontFamily: {
           display: ['"Fraunces"', 'serif'],
           sans: ['"Inter"', 'sans-serif'],
@@ -32,251 +26,97 @@
 </script>
 
 <style>
-  html { scroll-behavior: smooth; }
   body { font-family: 'Inter', sans-serif; }
   .font-display { font-family: 'Fraunces', serif; }
-  ::selection { background-color: #C1723C; color: #F6F2E9; }
-  .leaf-divider {
-    height: 1px;
-    background: linear-gradient(90deg, transparent, #7C8A5D, transparent);
-  }
 </style>
 </head>
-<body class="bg-cream text-forest-dark antialiased">
+<body class="bg-[#faf8f4] text-ink">
 
-<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:top-2 focus:left-2 focus:bg-forest focus:text-cream focus:px-4 focus:py-2 focus:rounded">Naar inhoud</a>
+<div class="max-w-2xl mx-auto px-6">
 
-<!-- Nav -->
-<header class="sticky top-0 z-40 bg-cream/90 backdrop-blur border-b border-forest/10">
-  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
-    <a href="#main" class="font-display font-semibold text-lg tracking-tight text-forest">
-      Landschap <span class="text-clay">Noord-Holland</span>
-    </a>
-    <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-forest-dark/80">
-      <a href="#over" class="hover:text-clay transition-colors">Over Art Wildrijk</a>
-      <a href="#programma" class="hover:text-clay transition-colors">Programma</a>
-      <a href="#kunstenaars" class="hover:text-clay transition-colors">Kunstenaars</a>
-      <a href="#praktisch" class="hover:text-clay transition-colors">Praktisch</a>
-      <a href="#contact" class="hover:text-clay transition-colors">Contact</a>
-    </nav>
-    <a href="#praktisch" class="hidden sm:inline-block text-sm font-semibold bg-forest text-cream px-4 py-2 rounded-full hover:bg-forest-dark transition-colors">
-      Bezoek Wildrijk
-    </a>
-  </div>
-  <!-- breadcrumb -->
-  <div class="max-w-6xl mx-auto px-6 pb-3 text-xs text-forest-dark/60 flex items-center gap-2">
-    <a href="#" class="hover:text-clay">Home</a>
-    <span aria-hidden="true">/</span>
-    <a href="#" class="hover:text-clay">Activiteiten</a>
-    <span aria-hidden="true">/</span>
-    <span class="text-forest-dark/90">Art Wildrijk</span>
-  </div>
-</header>
+  <header class="pt-16 pb-10">
+    <p class="text-sm text-ink/60">4 juli &ndash; 16 augustus 2026 &middot; elk weekend, 11.00&ndash;17.00 uur</p>
+    <h1 class="font-display text-4xl sm:text-5xl mt-2 leading-tight">
+      Art Wildrijk<br>
+      <span class="italic">Een Zomer Thuis</span>
+    </h1>
+    <p class="text-sm text-ink/60 mt-3">Ingang Wildrijk, tegenover parkeerplaats Zeeweg, Sint Maartensvlotbrug</p>
+  </header>
 
-<main id="main">
+  <img
+    src="https://www.landschapnoordholland.nl/files/styles/3x2_750w/public/2026-05/20260418_0814_LandschapNoord-Holland_Feestival_Wildrijk_%C2%A9JelleDraper_DSC_7827.jpg"
+    alt="Art Wildrijk"
+    class="w-full aspect-[3/2] object-cover"
+    loading="eager">
 
-  <!-- Hero -->
-  <section class="relative">
-    <div class="max-w-6xl mx-auto px-6 pt-10 md:pt-16 pb-12 grid md:grid-cols-2 gap-10 items-center">
-      <div>
-        <p class="uppercase tracking-[0.2em] text-xs font-semibold text-clay mb-4">Jubileumeditie &middot; 10 jaar Art Wildrijk</p>
-        <h1 class="font-display text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.05] text-forest-dark">
-          Art Wildrijk 2026<br>
-          <span class="italic text-clay">"Een Zomer Thuis"</span>
-        </h1>
-        <p class="mt-6 text-lg text-forest-dark/80 max-w-md">
-          Een kunstroute in en rondom het karakteristieke boshuis van Leo van der Leden en Vera van Vuuren &mdash; kunst midden tussen de bomen.
-        </p>
-        <dl class="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 text-sm max-w-md">
-          <div>
-            <dt class="font-semibold text-forest">Data</dt>
-            <dd class="text-forest-dark/70">4 juli &ndash; 16 augustus 2026, elk weekend</dd>
-          </div>
-          <div>
-            <dt class="font-semibold text-forest">Tijden</dt>
-            <dd class="text-forest-dark/70">11.00 &ndash; 17.00 uur</dd>
-          </div>
-          <div class="col-span-2">
-            <dt class="font-semibold text-forest">Locatie</dt>
-            <dd class="text-forest-dark/70">Ingang Wildrijk, tegenover parkeerplaats Zeeweg, Sint Maartensvlotbrug</dd>
-          </div>
-        </dl>
+  <section class="py-12 space-y-5 text-ink/85 leading-relaxed">
+    <p>
+      In de weekenden van 4 juli tot en met 16 augustus 2026 vindt in het idyllische Wildrijk de jubileumeditie van Art Wildrijk plaats. Onder de titel &ldquo;Een Zomer Thuis&rdquo; wordt deze bijzondere kunstroute voor de tiende keer georganiseerd in en rondom het karakteristieke boshuis van initiatiefnemers Leo van der Leden en Vera van Vuuren.
+    </p>
+    <p class="font-display italic text-xl text-ink">
+      &ldquo;Een Zomer Thuis verwijst naar de sfeer van rust, ontmoeting en verbondenheid die zo kenmerkend is voor Art Wildrijk: kunst midden tussen de bomen.&rdquo;
+    </p>
+  </section>
+
+  <img
+    src="https://www.landschapnoordholland.nl/files/styles/7x10_240w/public/2026-05/20260418_0827_LandschapNoord-Holland_Feestival_Wildrijk_%C2%A9JelleDraper_DSC_7856.jpg"
+    alt="Art Wildrijk"
+    class="w-full aspect-[16/10] object-cover">
+
+  <section class="py-12 border-t border-ink/10">
+    <h2 class="font-display text-2xl">Kunstenaars</h2>
+    <p class="mt-4 text-ink/85 leading-loose">
+      Vladimir Bakun, Hans Cornel, Martin de Rooij, Marja van Etten, Els Muntjewerf, Jacintha Roos, Michiel Schierbeek en Jacco Tuijn exposeren, in en rondom het boshuis van initiatiefnemers Leo van der Leden en Vera van Vuuren.
+    </p>
+  </section>
+
+  <section class="py-12 border-t border-ink/10">
+    <h2 class="font-display text-2xl">Live muziek</h2>
+    <p class="mt-4 text-ink/85 leading-relaxed">
+      Van 12 juli tot en met 16 augustus speelt Leo van der Leden elke zondag om 15.00 uur live muziek tussen de kunstwerken.
+    </p>
+  </section>
+
+  <img
+    src="https://www.landschapnoordholland.nl/files/styles/7x5_410/public/2025-07/202504_Wildrijk_GuidoGraas%20%285%29.jpg_compressed_0.JPEG"
+    alt="Wildrijk"
+    class="w-full aspect-[7/5] object-cover">
+
+  <section class="py-12 border-t border-ink/10">
+    <h2 class="font-display text-2xl">Praktisch</h2>
+    <dl class="mt-4 space-y-3 text-ink/85">
+      <div class="flex gap-4">
+        <dt class="w-28 shrink-0 text-ink/50">Data</dt>
+        <dd>Elk weekend, 4 juli &ndash; 16 augustus 2026</dd>
       </div>
-      <div class="relative">
-        <div class="absolute -inset-3 border border-clay/40 rounded-2xl -z-10 translate-x-3 translate-y-3 hidden sm:block"></div>
-        <img
-          src="https://www.landschapnoordholland.nl/files/styles/3x2_750w/public/2026-05/20260418_0814_LandschapNoord-Holland_Feestival_Wildrijk_%C2%A9JelleDraper_DSC_7827.jpg"
-          alt="Art Wildrijk"
-          class="w-full rounded-2xl shadow-xl object-cover aspect-[3/2]"
-          loading="eager">
+      <div class="flex gap-4">
+        <dt class="w-28 shrink-0 text-ink/50">Tijden</dt>
+        <dd>11.00 &ndash; 17.00 uur</dd>
       </div>
-    </div>
-  </section>
-
-  <div class="leaf-divider max-w-6xl mx-auto"></div>
-
-  <!-- Intro / Over -->
-  <section id="over" class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-5 gap-12 items-start">
-    <div class="md:col-span-3">
-      <h2 class="font-display text-3xl text-forest-dark mb-6">Tien jaar kunst tussen de bomen</h2>
-      <p class="text-forest-dark/80 leading-relaxed">
-        In de <strong class="text-forest">weekenden</strong> van 4 juli tot en met 16 augustus 2026 vindt in het idyllische Wildrijk de jubileumeditie van Art Wildrijk plaats. Onder de titel &ldquo;Een Zomer Thuis&rdquo; wordt deze bijzondere kunstroute voor de tiende keer georganiseerd in en rondom het karakteristieke boshuis van initiatiefnemers Leo van der Leden en Vera van Vuuren.
-      </p>
-      <blockquote class="mt-10 border-l-2 border-clay pl-6 py-1">
-        <p class="font-display italic text-xl text-forest-dark leading-snug">
-          &ldquo;Een Zomer Thuis verwijst naar de sfeer van rust, ontmoeting en verbondenheid die zo kenmerkend is voor Art Wildrijk: kunst midden tussen de bomen.&rdquo;
-        </p>
-      </blockquote>
-    </div>
-    <div class="md:col-span-2">
-      <img
-        src="https://www.landschapnoordholland.nl/files/styles/7x10_240w/public/2026-05/20260418_0827_LandschapNoord-Holland_Feestival_Wildrijk_%C2%A9JelleDraper_DSC_7856.jpg"
-        alt="Art Wildrijk"
-        class="w-full rounded-2xl shadow-md object-cover aspect-[7/10]">
-    </div>
-  </section>
-
-  <!-- Programma -->
-  <section id="programma" class="bg-forest text-cream py-16">
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
-      <div>
-        <p class="uppercase tracking-[0.2em] text-xs font-semibold text-clay mb-3">Elke zondag</p>
-        <h2 class="font-display text-3xl mb-4">Live muziek in het bos</h2>
-        <p class="text-cream/80 leading-relaxed max-w-md">
-          Van 12 juli tot en met 16 augustus speelt Leo van der Leden elke zondag om 15.00 uur live muziek tussen de kunstwerken &mdash; een intiem moment midden in de route.
-        </p>
+      <div class="flex gap-4">
+        <dt class="w-28 shrink-0 text-ink/50">Parkeren</dt>
+        <dd>Parkeerplaats Zeeweg, Sint Maartensvlotbrug</dd>
       </div>
-      <div>
-        <p class="uppercase tracking-[0.2em] text-xs font-semibold text-clay mb-3">Tijdens je bezoek</p>
-        <h2 class="font-display text-3xl mb-4">Activiteiten in Wildrijk</h2>
-        <ul class="grid grid-cols-3 gap-4 mt-6">
-          <li class="flex flex-col items-center text-center gap-2">
-            <span class="w-12 h-12 rounded-full bg-cream/10 flex items-center justify-center text-clay text-xl">&#128694;</span>
-            <span class="text-sm text-cream/80">Wandelen</span>
-          </li>
-          <li class="flex flex-col items-center text-center gap-2">
-            <span class="w-12 h-12 rounded-full bg-cream/10 flex items-center justify-center text-clay text-xl">&#128247;</span>
-            <span class="text-sm text-cream/80">Fotograferen</span>
-          </li>
-          <li class="flex flex-col items-center text-center gap-2">
-            <span class="w-12 h-12 rounded-full bg-cream/10 flex items-center justify-center text-clay text-xl">&#129411;</span>
-            <span class="text-sm text-cream/80">Vogels kijken</span>
-          </li>
-        </ul>
+      <div class="flex gap-4">
+        <dt class="w-28 shrink-0 text-ink/50">Route</dt>
+        <dd>Route Wildrijk, vanaf de parkeerplaats</dd>
       </div>
-    </div>
-  </section>
-
-  <!-- Kunstenaars -->
-  <section id="kunstenaars" class="max-w-6xl mx-auto px-6 py-16">
-    <h2 class="font-display text-3xl text-forest-dark mb-2">De kunstenaars</h2>
-    <p class="text-forest-dark/70 mb-10 max-w-xl">Tien makers exposeren dit jaar hun werk in en rondom het boshuis.</p>
-    <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-5">
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Vladimir Bakun</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Hans Cornel</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Martin de Rooij</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Marja van Etten</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Els Muntjewerf</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Jacintha Roos</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Michiel Schierbeek</li>
-      <li class="border-b border-forest/10 pb-3 font-display text-lg text-forest-dark">Jacco Tuijn</li>
-      <li class="border-b border-clay/40 pb-3 font-display text-lg text-forest-dark">
-        Leo van der Leden <span class="block text-xs font-sans not-italic text-clay font-semibold mt-1">Initiatiefnemer</span>
-      </li>
-      <li class="border-b border-clay/40 pb-3 font-display text-lg text-forest-dark">
-        Vera van Vuuren <span class="block text-xs font-sans not-italic text-clay font-semibold mt-1">Initiatiefnemer</span>
-      </li>
-    </ul>
-  </section>
-
-  <div class="leaf-divider max-w-6xl mx-auto"></div>
-
-  <!-- Gallery -->
-  <section class="max-w-6xl mx-auto px-6 py-16 grid sm:grid-cols-2 gap-6">
-    <figure class="rounded-2xl overflow-hidden shadow-md">
-      <img
-        src="https://www.landschapnoordholland.nl/files/styles/7x5_410/public/2025-07/202504_Wildrijk_GuidoGraas%20%285%29.jpg_compressed_0.JPEG"
-        alt="Wildrijk"
-        class="w-full object-cover aspect-[7/5]">
-      <figcaption class="px-4 py-3 text-sm text-forest-dark/70 bg-white/50">Het natuurgebied Wildrijk</figcaption>
-    </figure>
-    <figure class="rounded-2xl overflow-hidden shadow-md">
-      <img
-        src="https://www.landschapnoordholland.nl/files/styles/1x1_375w/public/2026-05/cover%20M2%202026.jpg"
-        alt="cover M2 2026"
-        class="w-full object-cover aspect-[7/5]">
-      <figcaption class="px-4 py-3 text-sm text-forest-dark/70 bg-white/50">Art Wildrijk in het magazine M2</figcaption>
-    </figure>
-  </section>
-
-  <!-- Praktisch -->
-  <section id="praktisch" class="bg-white/60 py-16">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="font-display text-3xl text-forest-dark mb-10">Praktische informatie</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-cream rounded-xl p-6 border border-forest/10">
-          <p class="text-xs uppercase tracking-wider font-semibold text-clay mb-2">Data</p>
-          <p class="text-forest-dark/80 text-sm">Za 4 juli &ndash; zo 16 augustus 2026, elk weekend</p>
-        </div>
-        <div class="bg-cream rounded-xl p-6 border border-forest/10">
-          <p class="text-xs uppercase tracking-wider font-semibold text-clay mb-2">Openingstijden</p>
-          <p class="text-forest-dark/80 text-sm">11.00 &ndash; 17.00 uur</p>
-        </div>
-        <div class="bg-cream rounded-xl p-6 border border-forest/10">
-          <p class="text-xs uppercase tracking-wider font-semibold text-clay mb-2">Honden</p>
-          <p class="text-forest-dark/80 text-sm">Niet toegestaan</p>
-        </div>
-        <div class="bg-cream rounded-xl p-6 border border-forest/10">
-          <p class="text-xs uppercase tracking-wider font-semibold text-clay mb-2">Parkeren</p>
-          <p class="text-forest-dark/80 text-sm">Parkeerplaats Zeeweg</p>
-        </div>
+      <div class="flex gap-4">
+        <dt class="w-28 shrink-0 text-ink/50">Honden</dt>
+        <dd>Niet toegestaan</dd>
       </div>
-      <p class="text-sm text-forest-dark/60 mt-8 max-w-2xl">
-        Vanaf de parkeerplaats aan de Zeeweg in Sint Maartensvlotbrug volgt u de aangegeven Route Wildrijk naar de ingang van het gebied.
-      </p>
-    </div>
+      <div class="flex gap-4">
+        <dt class="w-28 shrink-0 text-ink/50">Onderweg</dt>
+        <dd>Wandelen, fotograferen, vogels kijken</dd>
+      </div>
+    </dl>
   </section>
 
-  <!-- Certifications -->
-  <section class="max-w-6xl mx-auto px-6 py-14">
-    <p class="text-center text-xs uppercase tracking-[0.2em] text-forest-dark/50 mb-8">Landschap Noord-Holland is</p>
-    <div class="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 opacity-80">
-      <img src="https://www.landschapnoordholland.nl/files/styles/1x1_75w/public/2018-03/ANBI_RGB.jpg" alt="ANBI" class="h-12 w-auto">
-      <img src="https://www.landschapnoordholland.nl/files/styles/1x1_75w/public/2022-02/Logo_Erkend%20Goed%20Doel_fc.png" alt="logo CBF" class="h-12 w-auto">
-      <img src="https://www.landschapnoordholland.nl/files/styles/1x1_75w/public/2025-05/snl-gecertificeerd-klein.png" alt="Landschap Noord-Holland is SNL Gecertificeerd" class="h-12 w-auto">
-      <img src="https://www.landschapnoordholland.nl/files/styles/1x1_75w/public/2025-08/PSO_Logo_PSO%20Beeldmerk%20%281%29.png" alt="PSO logo" class="h-12 w-auto">
-      <img src="https://www.landschapnoordholland.nl/files/styles/1x1_75w/public/2026-01/PL_NL_V_RED_RGB.png" alt="Logo PL rood" class="h-12 w-auto">
-    </div>
-  </section>
+  <footer class="py-10 border-t border-ink/10 text-sm text-ink/40">
+    Art Wildrijk &mdash; 4 juli t/m 16 augustus 2026
+  </footer>
 
-</main>
-
-<!-- Footer / Contact -->
-<footer id="contact" class="bg-forest-dark text-cream/90 mt-8">
-  <div class="max-w-6xl mx-auto px-6 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
-    <div class="lg:col-span-2">
-      <p class="font-display text-xl text-cream mb-3">Landschap Noord-Holland</p>
-      <p class="text-sm text-cream/60 max-w-sm">Stichting Landschap Noord-Holland beheert en beschermt natuur en landschap in Noord-Holland, waaronder Wildrijk.</p>
-    </div>
-    <div>
-      <p class="text-xs uppercase tracking-wider font-semibold text-clay mb-3">Bezoekadres</p>
-      <p class="text-sm text-cream/70 leading-relaxed">Schuine Hondsbosschelaan 45-A<br>1851 HN Heiloo</p>
-    </div>
-    <div>
-      <p class="text-xs uppercase tracking-wider font-semibold text-clay mb-3">Contact</p>
-      <p class="text-sm text-cream/70 leading-relaxed">
-        <a href="tel:0880064400" class="hover:text-clay transition-colors">(088) 00 64 400</a><br>
-        <a href="mailto:info@landschapnoordholland.nl" class="hover:text-clay transition-colors">info@landschapnoordholland.nl</a>
-      </p>
-    </div>
-  </div>
-  <div class="border-t border-cream/10">
-    <div class="max-w-6xl mx-auto px-6 py-6 text-xs text-cream/50 flex flex-col sm:flex-row justify-between gap-2">
-      <p>&copy; 2026 Stichting Landschap Noord-Holland. Niet-officiële fanpagina / template.</p>
-      <p>Inhoud gebaseerd op de oorspronkelijke Art Wildrijk-pagina.</p>
-    </div>
-  </div>
-</footer>
+</div>
 
 </body>
 </html>

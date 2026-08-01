@@ -20,6 +20,6 @@ python3 -m http.server 8000
 
 ## Notes
 
-- Images are currently hotlinked from landschapnoordholland.nl (photos, magazine cover, certification
-  logos). These are the original organization's copyrighted assets — swap them for your own images
-  before using this beyond a personal/local template.
+- Images are currently hotlinked from landschapnoordholland.nl (event photos). These are the
+  photographer's copyrighted assets — swap them for your own images before using this beyond a
+  personal/local template.
